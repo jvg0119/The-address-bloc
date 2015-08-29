@@ -19,10 +19,11 @@ class AddressBook
         end
         
         @entries.insert(index, Entry.new(name, phone, email))
+        
     end
    
   
-   # remove entry
+   # remove entry`
     def remove_entry(name, phone, email)
        # index = 0
         @entries.each do |entry|

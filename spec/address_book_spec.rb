@@ -1,15 +1,5 @@
 require_relative '../models/address_book.rb'
 
-=begin
-require_relative "../controllers/menu_controller"
-
-menu = MenuController.new
-
-system "clear"
-puts "Welcome to AddressBloc"
-=end
-
-menu.main_menu
 
 RSpec.describe AddressBook do
     context "attributes" do
